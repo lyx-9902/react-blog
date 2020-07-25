@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    padding: 0;
+  }
+ 
+
+.dispaly_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+/* 通用样式 */
+.shadow {
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
+}
+
+.white_box {
+    background: #fff;
+}
+
+
+  /*包含以下四种的链接*/
+a {
+    text-decoration: none;
+}
+/*正常的未被访问过的链接*/
+a:link {
+    text-decoration: none;
+}
+/*已经访问过的链接*/
+a:visited {
+    text-decoration: none;
+}
+/*鼠标划过(停留)的链接*/
+a:hover {
+    text-decoration: none;
+}
+/* 正在点击的链接*/
+a:active {
+    text-decoration: none;
+}
+
+a{
+    text-decoration:none;
+    color:#333;
+    }
+
+li{ list-style: none;}
+
+ 
+
+
+  html{
+  width: 100%;
+  height: 100%;
+  }
+
+  #root{
+    height: 100%;
+  }
+  body{
+    height: 100%;
+    /* background-color: #f4f4f4; */
+    text-rendering: optimizelegibility;
+    /* -webkit-tap-highlight-color: rgba(0,0,0,0); */
+    line-height: 1.65;
+  }
+
+ 
+  @font-face {
+    font-family: 'myFont_Bold'; 
+    src: url('../font/PingFang\ Heavy.ttf'); 
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+html{
+    font-family: myFont_Bold;
+    color: #555;
+}
+
+
+
+  /* 清除默认样式 */
+
+  * {
+    word-wrap: break-word;
+    box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, hr, p, iframe, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td, fieldset {
+    margin: 0;
+    padding: 0
+}
+
+ul, ol, dl {
+    list-style-type: none
+}
+
+html, body {
+    *position: static;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+address, caption, cite, code, dfn, em, th, var {
+    font-style: normal;
+    font-weight: 400
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit
+}
+
+input, button {
+    overflow: visible;
+    vertical-align: middle;
+    outline: none
+}
+
+body, th, td, button, input, select, textarea {
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, tahoma, arial, Verdana, sans-serif, "WenQuanYi Micro Hei", "\5B8B\4F53";
+    font-size: 12px;
+    /* color: #333; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    line-height: 1.6
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none
+}
+
+a.ie6:hover {
+    zoom: 1
+}
+
+a:focus {
+    outline: none
+}
+
+a:hover, a:active {
+    outline: none
+}
+
+:focus {
+    outline: none
+}
+
+i {
+    font-style: normal;
+}
+
+sub, sup {
+    vertical-align: baseline
+}
+
+button, input[type="button"], input[type="submit"] {
+    line-height: normal !important;
+}
+
+/*img*/
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+a img, img {
+    -ms-interpolation-mode: bicubic
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto
+}
+
+/*IE下a:hover 背景闪烁*/
+
+/*HTML5 reset*/
+header, footer, section, aside, details, menu, article, section, nav, address, hgroup, figure, figcaption, legend {
+    display: block;
+    margin: 0;
+    padding: 0
+}

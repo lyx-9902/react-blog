@@ -1,0 +1,32 @@
+
+.md_box{
+    display: flex;
+    max-width: 1251px;
+    padding-top: 400px;
+    /* background: pink; */
+    margin: auto;
+    height: 2000px;
+}
+
+.for-container{
+    flex:3;
+}
+.md_r{
+    flex:1;
+}
+
+
+
+.for-container {
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px;
+    background: #fff;
+    font-size: 14px;
+     min-height: 800px;
+}
+
+
